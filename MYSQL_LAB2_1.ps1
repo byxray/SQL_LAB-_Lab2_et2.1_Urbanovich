@@ -51,7 +51,7 @@ Param($nameOfTable)
 
 if ($nameOfTable -like "InternetSales") {
 
-Write-Host "Creaate DB - 'InternetSales'" -ForegroundColor White -BackgroundColor DarkGreen
+Write-Host "Create DB - 'InternetSales'" -ForegroundColor White -BackgroundColor DarkGreen
 
 $SqlCmd.CommandText = @'
 CREATE DATABASE InternetSales
@@ -89,7 +89,7 @@ $objReader.close()
 
 } else {
 
-Write-Host "Creaate DB - 'HumanResources'" -ForegroundColor White -BackgroundColor DarkGreen
+Write-Host "Create DB - 'HumanResources'" -ForegroundColor White -BackgroundColor DarkGreen
 
 $SqlCmd.CommandText = @'
 CREATE DATABASE HumanResources
